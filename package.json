@@ -1,0 +1,21 @@
+{
+  "name": "testing-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "serverStart": "nodemon app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Emanuele Favero",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "supertest": "^6.3.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
